@@ -101,7 +101,7 @@ void handleSettings() {
 void setup() {
   analogWriteRange(PWM_RANGE_FULL);
   pinMode(WHITE_PIN, OUTPUT);
-  digitalWrite(RED_LED_PIN, LOW);
+  digitalWrite(WHITE_PIN, LOW);
 
   pinMode(RED_LED_PIN, OUTPUT);
   digitalWrite(RED_LED_PIN, LOW);
